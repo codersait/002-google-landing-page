@@ -1,0 +1,14 @@
+input {
+  border: none;
+  flex: 1;
+}
+input:focus {
+  outline: none;
+}
+.search-bar {
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
