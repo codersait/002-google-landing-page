@@ -9,27 +9,36 @@
   </head>
   <body>
     <header>
-      <ul class="left-nav">
-        <li>About</li>
-        <li>Store</li>
-      </ul>
-      <ul class="right-nav">
-        <li>Gmail</li>
-        <li>Images</li>
-        <li>icon</li>
-        <li>Sign in</li>
-      </ul>
+      <nav class="navbar">
+        <ul class="left-nav">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Store</a></li>
+        </ul>
+        <ul class="right-nav">
+          <li><a href="#">Gmail</a></li>
+          <li><a href="#">Images</a></li>
+          <li>
+            <img src="./images/icon-menu.jpg" alt="" width="20" />
+          </li>
+          <li><a href="#" class="btn">Sign in</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <div class="banner">
-        <div class="logo"></div>
-        <div class="search-bar">
-          <span>search icon</span>
-
-          <input type="text" name="search" />
-
-          <span>mic icon</span>
+        <div class="logo">
+          <img src="./images/googlelogo.png" alt="" class="img" />
         </div>
+        <div class="search-bar">
+          <div><img src="./images/Magnifying_glass_icon.png" alt="" width="15" /></div>
+          <input type="text" name="search" />
+          <div><img src="./images/google_microphone.png" alt="" width="15" /></div>
+        </div>
+        <div class="butons">
+          <a href="#" class="btn">Google Search</a>
+          <a href="#" class="btn">I'm Feeling Luck</a>
+        </div>
+        <p class="language">Other languages you can use Google: <a href="#">English</a></p>
       </div>
     </main>
   </body>
